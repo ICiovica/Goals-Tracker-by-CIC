@@ -26,7 +26,7 @@ struct GoalsFormView: View {
                 }
                 
                 TextField("Enter description:", text: $form.description)
-                    .keyboardType(.URL)
+                    .keyboardType(.default)
                     .autocapitalization(.none)
             }
             .navigationBarTitle(form.updating ? "Update Goal" : "New Goal", displayMode: .inline)
