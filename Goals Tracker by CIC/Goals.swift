@@ -11,10 +11,10 @@ struct Goals: Identifiable {
     enum GoalType: String {
         case fitness, read, sleep, meditate, food
     }
-        let id = UUID()
-        var name: String
-        var description: String
-        var goalType: GoalType
+    let id = UUID()
+    var name: String
+    var description: String
+    var goalType: GoalType
 }
 
 extension Goals {
